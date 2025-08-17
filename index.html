@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>J. V. Ravi Chandra — Portfolio</title>
+  <meta name="description" content="Portfolio of Jaladanki Venkata Ravi Chandra — CSE student, developer of Chity, MediScan, Aero-Count." />
+  <link rel="preconnect" href="." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Page Reveal -->
+  <div class="reveal-mask" aria-hidden="true"></div>
+
+  <!-- Animated Background -->
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+  <div class="noise" aria-hidden="true"></div>
+  <div id="cursor-blob" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="brand" href="#home" aria-label="Home">
+      <span class="brand-mark">JVRC</span>
+      <span class="brand-dot"></span>
+    </a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#research">Research</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn ghost" href="" download></a>
+  </header>
+
+  <main id="home">
+    <!-- HERO -->
+    <section class="hero section" data-animate>
+      <div class="hero-content">
+        <p class="eyebrow">Vijayawada, India</p>
+        <h1 class="headline">
+          Jaladanki <span class="accent">Venkata Ravi</span> Chandra
+        </h1>
+        <p class="subtitle">
+          CSE @ VR Siddhartha (CGPA 8.97) · 1390+ LeetCode ·
+          Hackathon Top 10
+        </p>
+
+        <div class="chips marquee" role="marquee" aria-label="Highlights">
+          <span>Python</span><span>Java</span><span>C</span><span>SQL</span>
+          <span>Django</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+          <span>OpenCV</span><span>YOLOv8</span><span>Android</span>
+        </div>
+
+        <div class="cta">
+          <a class="btn primary magnet" href="#projects">See Projects</a>
+          <a class="btn outline magnet" href="#contact">Get in Touch</a>
+        </div>
+
+        <div class="socials">
+          <a href="mailto:jvravichandra03@gmail.com" aria-label="Email">Email</a>
+          <a href="https://github.com/JVRC03" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/venkata-ravi-chandra-jaladanki" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://leetcode.com/u/user0490hI/" target="_blank" rel="noreferrer">LeetCode</a>
+        </div>
+      </div>
+      <div class="hero-orb" aria-hidden="true"></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section two-col" data-animate>
+      <div class="section-head">
+        <h2>About</h2>
+        <p>
+         I am Jaladanki Venkata Ravi Chandra, a passionate and dedicated Computer 
+         Science Engineering student at Velagapudi Ramakrishna Siddhartha Engineering 
+         College with academic CGPA 8.97. I have a keen interest in Python programming, 
+         AI powered health technologies, and mobile app development using Flutter. 
+         I enjoy solving challenging DSA problems, building real-world solutions, and continuously 
+         exploring new technologies. I aim to contribute meaningfully to techdriven 
+         projects and am always eager to learn and collaborate.
+        </p>
+      </div>
+      <div class="card glass">
+        <h3>What I’m great at</h3>
+        <ul class="bullets">
+          <li>Turning ideas into production-ready apps with clean UX.</li>
+          <li>Computer vision prototyping (OpenCV, YOLOv8) for real-world tasks.</li>
+          <li>Fast problem solving (1300+ LeetCode, global top ~7k).</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section" data-animate>
+      <h2>Skills</h2>
+      <div class="skill-grid">
+        <div class="skill chip3d">Python</div>
+        <div class="skill chip3d">Java</div>
+        <div class="skill chip3d">C</div>
+        <div class="skill chip3d">SQL</div>
+        <div class="skill chip3d">HTML</div>
+        <div class="skill chip3d">CSS</div>
+        <div class="skill chip3d">JavaScript</div>
+        <div class="skill chip3d">Django</div>
+        <div class="skill chip3d">OpenCV</div>
+        <div class="skill chip3d">YOLOv8</div>
+        <div class="skill chip3d">Android (Kotlin)</div>
+        <div class="skill chip3d">Windows · Linux</div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section" data-animate>
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p>High-impact builds with measurable outcomes and delightful UX.</p>
+      </div>
+      <div class="grid cards">
+        <article class="card tilt">
+          <div class="tag">Dart · Kotlin</div>
+          <h3>Chity</h3>
+          <p>An app that reduces children’s screen time by promoting device-free activities.</p>
+          <div class="card-actions">
+            <a class="btn tiny" href="#contact">Discuss</a>
+          </div>
+        </article>
+
+        <article class="card tilt">
+          <div class="tag">Python · OpenCV · YOLOv8</div>
+          <h3>Aero-Count</h3>
+          <p>Drone-based people counting and overcrowding alerts via WhatsApp.</p>
+          <div class="card-actions">
+            <a class="btn tiny" href="#contact">Discuss</a>
+          </div>
+        </article>
+
+        <article class="card tilt">
+          <div class="tag">Dart · Kotlin · AI</div>
+          <h3>MediScan</h3>
+          <p>Scans medical report QR codes and explains results with an AI chatbot.</p>
+          <div class="card-actions">
+            <a class="btn tiny" href="#contact">Discuss</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research" class="section two-col" data-animate>
+      <div class="section-head">
+        <h2>Research</h2>
+        <p>
+          Analysis of Multiuser Detectors and Performance Improvement in DS-CDMA Systems —
+          WSEAS Transactions on Electronics (Vol. 15, 2024), Scopus Indexed.
+        </p>
+        <a class="btn outline tiny" target="_blank" rel="noreferrer"
+           href="https://doi.org/10.37394/232017.2024.15.1">View DOI</a>
+      </div>
+      <div class="card glass">
+        <h3>Contributions</h3>
+        <ul class="bullets">
+          <li>Interference reduction techniques for MAI in DS-CDMA.</li>
+          <li>Explored BER vs. Eb/N0 trade-offs.</li>
+          <li>Guided DPPIC approach implementation.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="section" data-animate>
+      <h2>Achievements</h2>
+      <div class="timeline">
+        <div class="t-item">
+          <span class="t-dot"></span>
+          <div class="t-card">
+            <h3>LeetCode — 1390+ problems</h3>
+            <p>Global rank ~6,000.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <span class="t-dot"></span>
+          <div class="t-card">
+            <h3>HackerRank</h3>
+            <p>6th problem-solving badge; top ~16,000.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <span class="t-dot"></span>
+          <div class="t-card">
+            <h3>BITS Xcelerate</h3>
+            <p>Top 10 in 24-hour Hackathon.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <span class="t-dot"></span>
+          <div class="t-card">
+            <h3>Code Wizards @ SUPRAGNA-2025</h3>
+            <p>Participant, National Techno-Cultural Fest.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section" data-animate>
+      <h2>Experience</h2>
+      <div class="grid cards">
+        <article class="card tilt">
+          <div class="tag">Aug–Sep 2023</div>
+          <h3>Java Full Stack Intern</h3>
+          <p>BrainOvision Solutions Pvt. Ltd. (with AICTE)</p>
+          <ul class="bullets compact">
+            <li>1-month intensive full-stack program.</li>
+            <li>Praised for punctuality, quick learning, impactful contributions.</li>
+            <li>Intern ID: BOV23JL0138</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section" data-animate>
+      <h2>Education</h2>
+      <div class="grid edu">
+        <article class="card glass tilt">
+          <h3>VR Siddhartha Engineering College</h3>
+          <p>B.Tech — CSE (2023–2027)</p>
+          <p>CGPA: 8.97 / 10</p>
+          <p>Vijayawada, Andhra Pradesh</p>
+        </article>
+        <article class="card glass tilt">
+          <h3>Sri Sarada Junior College</h3>
+          <p>Intermediate (2021–2023)</p>
+          <p>Percentage: 96.7%</p>
+        </article>
+        <article class="card glass tilt">
+          <h3>Narayana E.M High School</h3>
+          <p>10th Grade (2020–2021)</p>
+          <p>Percentage: 100%</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section" data-animate>
+      <h2>Contact</h2>
+      <form class="contact" onsubmit="return sendMail(event)">
+        <div class="row">
+          <input type="text" name="name" placeholder="Your name" required />
+          <input type="email" name="email" placeholder="Your email" required />
+        </div>
+        <textarea name="message" rows="5" placeholder="Say hello…" required></textarea>
+        <button class="btn primary magnet" type="submit">Send Message</button>
+        <p class="muted">or write to <a href="mailto:jvravichandra03@gmail.com">jvravichandra03@gmail.com</a></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> JV Ravi Chandra · Built with ❤️ in pure HTML/CSS/JS</p>
+    <div class="footer-links">
+      <a href="https://github.com/JVRC03" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/venkata-ravi-chandra-jaladanki" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a href="https://leetcode.com/u/user0490hI/" target="_blank" rel="noreferrer">LeetCode</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
